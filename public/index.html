@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./assets/images/icons8-password-100.png" type="image/x-icon">
+
+  <title>Make your Passwords
+  </title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Gere suas senhas</h1>
+
+    <div class="senha-gerada">
+      Selecione as opções para a sua senha
+    </div><br>
+
+    <div class="labels">
+          <div class="form-group">
+      <label for="qtd-caracteres">Quantidade de caracteres</label>
+      <input id="qtd-caracteres" value="10" type="number" min="1" max="20" class="qtd-caracteres">
+    </div>
+    <label class="container-input">
+      <p class="label-text">Adicionar maiúsculas</p>  
+      <input type="checkbox" class="chk-maiusculas" checked>
+      <div class="checkmark"></div>
+    </label>
+    <label class="container-input">
+      <p class="label-text">Adicionar minúsculas</p>  
+      <input type="checkbox" class="chk-minusculas" >
+      <div class="checkmark"></div>
+    </label>
+    <label class="container-input">
+      <p class="label-text">Adicionar números</p>  
+      <input  type="checkbox" class="chk-numeros" >
+      <div class="checkmark"></div>
+    </label>
+    <label class="container-input">
+      <p class="label-text">Adicionar simbolos</p>  
+      <input type="checkbox" class="chk-simbolos" checked >
+      <div class="checkmark"></div>
+    </label>
+    </div>
+
+
+    <div class="button">
+         <button class="gera-senha">
+      Gerar senha
+    </button>
+  </div>
+
+
+    
+
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+  <script src="./assets/js/background.js"></script>
+</body>
+
+</html>
